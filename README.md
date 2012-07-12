@@ -93,7 +93,7 @@ server_grove_locale:
         enabled: true # Default: true
         patterns: [ "/^(?P<locale>[a-z]{2}).png$/" ] # Default: [ "/^(?P<locale>[a-z]{2}).png$/", "/^(?P<locale>[a-z]{2})\-(?P<country>[A-Z]{2}).png$/" ]
         defaults: # Default: []
-            en: "en-UK.png"
+            en: "en-GB.png"
 
     # Twig template with functions
     template: "AcmeDemoBundle::template.html.twig" # Default: ServerGroveLocaleBundle::flags.html.twig
