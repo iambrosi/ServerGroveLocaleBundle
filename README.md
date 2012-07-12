@@ -129,7 +129,7 @@ The **flag** function displays only the flag image:
 The result would be:
 
 ```html
-<img src="/images/locale/flags-en.png"/>
+<img src="/images/locale/en.png"/>
 ```
 
 You can also use a third param with options.
@@ -172,7 +172,7 @@ This bundle provides a function to display the flags with a link to a specific *
 The result would be:
 
 ```html
-<a href="/page/en"><img src="/images/locale/flags-en.png"/></a>
+<a href="/page/en"><img src="/images/locale/en.png"/></a>
 ```
 
 ### The *domain_flag* function
@@ -187,7 +187,7 @@ It also provides a function to link the flag to a configured domain
 The result would be:
 
 ```html
-<a href="http://example.com"><img src="/images/locale/flags-en.png"/></a>
+<a href="http://example.com"><img src="/images/locale/en.png"/></a>
 ```
 
 Displaying multiple configured flags
@@ -207,8 +207,8 @@ The **flags** function is the equivalent for the **flag** function for multiple 
 The result would be:
 
 ```html
-<img src="/images/locale/flags-en.png"/>
-<img src="/images/locale/flags-es.png"/>
+<img src="/images/locale/en.png"/>
+<img src="/images/locale/es.png"/>
 ```
 
 ### The *path_flags* function
@@ -223,8 +223,8 @@ The **path_flags** function is the equivalent for the **path_flag** function for
 The result would be:
 
 ```html
-<a href="/page/en"><img src="/images/locale/flags-en.png"/></a>
-<a href="/page/es"><img src="/images/locale/flags-es.png"/></a>
+<a href="/page/en"><img src="/images/locale/en.png"/></a>
+<a href="/page/es"><img src="/images/locale/es.png"/></a>
 ```
 
 ### The *domains_flags* function
@@ -239,6 +239,6 @@ The **domains_flags** function is the equivalent for the **domains_flags** funct
 The result would be:
 
 ```html
-<a href="http://example.com"><img src="/images/locale/flags-en.png"/></a>
-<a href="http://example.es"><img src="/images/locale/flags-es.png"/></a>
+<a href="http://example.com"><img src="/images/locale/en.png"/></a>
+<a href="http://example.es"><img src="/images/locale/es.png"/></a>
 ```
